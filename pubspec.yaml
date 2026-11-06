@@ -1,0 +1,92 @@
+name: loai
+description: Local AI Assistant with comprehensive features
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Theming
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.7
+  google_fonts: ^6.1.0
+  animated_text_kit: ^4.2.2
+  flutter_animate: ^4.2.0
+  
+  # State Management
+  provider: ^6.1.1
+  riverpod: ^2.4.9
+  
+  # File & Image Handling
+  image_picker: ^1.0.4
+  file_picker: ^6.1.1
+  path_provider: ^2.1.1
+  pdf_text: ^0.5.0
+  image: ^4.1.3
+  
+  # Speech & TTS
+  speech_to_text: ^6.1.0
+  flutter_tts: ^3.6.3
+  
+  # HTTP & API
+  http: ^1.1.0
+  dio: ^5.3.2
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path: ^1.8.3
+  
+  # Code Editor
+  flutter_code_editor: ^0.4.0
+  highlight: ^0.7.0
+  
+  # Web Search
+  webview_flutter: ^4.4.2
+  url_launcher: ^6.1.12
+  
+  # Utilities
+  uuid: ^4.2.1
+  intl: ^0.18.1
+  share_plus: ^7.2.1
+  permission_handler: ^11.1.0
+  
+  # AI & ML
+  tflite_flutter: ^0.10.4
+  onnxruntime: ^0.2.0
+  
+  # Audio
+  audioplayers: ^5.0.1
+  just_audio: ^0.9.34
+  
+  # Notifications
+  flutter_local_notifications: ^16.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.6
+  hive_generator: ^2.0.1
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/fonts/
+  
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700

@@ -1,0 +1,12 @@
+include ':app'
+
+def flutterProjectRoot = rootProject.projectDir.parentFile.toPath()
+
+def plugins = new Properties()
+file("${flutterProjectRoot}/.flutter-plugins").withInputStream { plugins.load(it) }
+
+plugins.each { name, path ->
+    def pluginDirectory = flutterProjectRoot.toFile().resolve(path).resolve('android').toPath()
+    include ":$name"
+    project(":$name").projectDir = pluginDirectory.toFile()
+}
