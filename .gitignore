@@ -1,0 +1,77 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Android
+android/.idea/
+android/app/build/
+android/app/libs/
+android/.gradle/
+android/gradle.properties
+android/local.properties
+android/*.iml
+android/*.ipr
+android/*.iws
+
+# iOS
+ios/.xcode.env
+ios/.xcode.env.local
+ios/Pods/
+ios/Pods.lock
+ios/build/
+ios/*.xcworkspace/
+ios/*.pbxuser
+ios/*.mode1v3
+ios/*.mode2v3
+ios/*.perspectivev3
+ios/*.xcscmblueprint
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Local env files
+.env*.local
+.env
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+
+# Build artifacts
+*.apk
+*.aab
+*.ipa
+*.bundle
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+.expo/cache/
+
+# Temporary files
+tmp/
+temp/

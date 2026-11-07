@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LoAI</string>
+    <string name="expo_modules_autolinking_error">Expo modules autolinking failed</string>
+</resources>

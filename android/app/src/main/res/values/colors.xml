@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="launch_screen_background">#1a1a2e</color>
+    <color name="primary">#6c5ce7</color>
+    <color name="primary_dark">#5649c0</color>
+    <color name="secondary">#a29bfe</color>
+    <color name="background">#1a1a2e</color>
+    <color name="surface">#2d3436</color>
+    <color name="text">#ffffff</color>
+    <color name="text_secondary">#b2bec3</color>
+    <color name="error">#ff4757</color>
+    <color name="success">#2ed573</color>
+    <color name="warning">#ffa502</color>
+    <color name="info">#3742fa</color>
+</resources>
